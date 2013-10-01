@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Cantora+One);
+#header{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+img{
+    border: solid;   
+}
+
+body{
+    font-size: 20px;
+    font-family: 'Cantora One', sans-serif;
+    color: #333333
+    
+}
+#links{
+    text-align: center;
+    margin: 0 auto;   
+}
+
+#links  ul{
+    list-style: none;
+}
+#links li{
+
+margin: 1em;
+display: inline;
+}
+
+#links  li a{
+    text-decoration: none;
+    color: black;
+    border-style:ridge;
+}
+
+#links  li a:hover{
+    background-color: #9d9595;
+}
+
+#links li a:visited{
+    text-decoration: none;
+}
+
+#active {
+    background-color: #9d9595;
+}
+
+#projects img{
+        width: 20em; 
+	height: 20em; 
+        margin: 1em;  
+        text-align: center;
+        
+}
+
+#projects h2{       
+   	float:left;
+        margin: 1em; 
+        position: relative;
+        text-align:center;
+        margin: 0 auto;
+        clear: left;
+       
+}
+
+#contactme{
+    text-decoration: none;
+    text-align: center;
+}
+
+#networks {	
+	position: relative;
+	text-align: center;
+        border: solid;
+        width: 12em;
+   
+}
+
+#personalTag img{	
+	width: 15em;
+        height: 20em;
+   
+}
+
+#networks ul{	
+	
+        text-decoration: none;
+}
+
+footer{
+    float: left;
+    clear: left;
+    font-size: 20px;  
+}
+
+#personalTag{
+    text-align: center;
+}
